@@ -6,7 +6,7 @@ const Home = () => {
    
   return (
    <>
-  <Common name ="Talk About Code with  " say="Home" imgsrc={web} visit="/service" btname="Get Started "/>
+   <Common name ="Talk About Code with  " say="Home" imgsrc={web} visit="/service" btname="Get Started "/>
    
    
    

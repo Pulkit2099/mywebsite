@@ -4,7 +4,7 @@ const Footer = () => {
   return (
    <>
    
-       <footer  className='bg-light-black text-center '>
+       <footer  className='bg-light text-center '>
 <p>
     Get ready With React Development By Pulkit
 </p>

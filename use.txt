@@ -5,3 +5,4 @@
 </div>
 </div>
 </div>navbar-light bg-light
+npm  run build -prod
