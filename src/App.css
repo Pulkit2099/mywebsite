@@ -1,38 +1,50 @@
 .App {
   text-align: center;
+  background-image: url(tut\public\back.jpg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-image:url("C:\Users\PC\Desktop\main\tut\public\images") ;
+  font-family: cursive;
 }
+ back{
+   background-image:url("C:\Users\PC\Desktop\main\tut\public\images") ;
+    background-size: contain;
+    width: 200px;
+ }
+*body {
+  background: #f2f2f2;
+  
+  background-image:url("C:\Users\PC\Desktop\main\tut\public\images") ;
+  background-size: contain;
+  width: 200px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+  overflow: auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ 
+h1{
+   text-align: center;
+   margin: 5%;
+   font-size: 3rem;
+   text-decoration: underline;
 }
-
-.App-link {
-  color: #61dafb;
+ 
+ul {
+  text-align: left;
+  padding-left: 10%;
+  padding: 7%;
+  font-size: 2rem;
+  list-style: circle;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+li:hover{
+  color:red;
+  margin: 4%;
+  transition: 1.5s ease;
+  cursor: pointer;
 }

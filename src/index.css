@@ -1,13 +1,147 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 50px;
+  background-color: #66CCFF;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+ 
+.navbar{
+  background : aqua;
+   font-size: large;
+   font-color:blue
+   
+
+} 
+
+.nav-link{
+  color: #0d0b14;
+}
+
+
+#header .btn-get-started{
+ font-weight: 500;
+ font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding:10px 30px ;
+   border-radius: 50px;
+    transition: 1s;
+  color:#66CCFF;
+  border: 2px solid #3498db;
+  text-decoration: none;
+
+
+}
+
+#header .btn-get-started:hover{
+
+background: #3498db;
+color: #fff;
+
+}
+
+.header-R{
+  text-align: right;
+}
+
+#header .animated{
+
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+
+  0%{
+    transform: translateY(10px);
+  }
+100%{
+  transform: translateY(-10px);
+}
+
+
+
+}
+@-webkit-keyframes up-down{
+
+  0%{
+    transform: translateY(10px);
+  }
+100%{
+  transform: translateY(-10px);
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ul.theList {
+  padding: 0;
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+
+.theList li {
+  color: #333;
+  background-color: rgba(255, 255, 255, .5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: background-color .2s ease-out;
+}
+
+#header{
+
+  width: 100%;
+  height: 80vh;
+   margin-top: 7px;   
+
+}
+#header .brand-name{
+  color:aqua;
+}
+
+
+#header h1{
+margin: 0 0 10px 0 ;
+font-size: 48px;
+font-weight: 700;
+  color: black; 
+
+}
+
+
+
+.todoListMain .theList li:hover {
+  background-color: pink;
+  cursor: pointer;
+}
+
+ ul.theList li:hover{
+	background-color: red;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.navbar a:hover{
+
+color:#003399 !important;
+
 }
