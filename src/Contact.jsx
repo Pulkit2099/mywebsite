@@ -36,11 +36,11 @@ const Contact = () => {
     const formSubmit = (e) => {
     
           e.preventDefault();
-          alert('My name is ${data.fullname}.  My mobile number is ${data.phone }, and my email is ${data.email}, here i want to say ${data.msg}' );
+          alert(`My name is ${data.fullname}.  My mobile number is ${data.phone }, and my email is ${data.email}, here i want to say ${data.msg}` );
 
 
     }
-
+    
 
 
   return (
@@ -59,7 +59,7 @@ const Contact = () => {
       <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">FullName</label>
   <input type="text" class="form-control" id="exampleFormControlInput1"
-  name=""
+  name="fullname"
   value={data.fullname}
   onChange={InputEvent}
   placeholder="Enter Your Name"         />
@@ -72,10 +72,10 @@ const Contact = () => {
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
   <input type="number" class="form-control" id="exampleFormControlInput1"
-    name=""
+    name="phone"
     value={data.phone}
     onChange={InputEvent}
-  placeholder="Contact number"/  >
+  placeholder="Contact number"/>
 </div>
 <div class="mb-3">
 
@@ -83,7 +83,7 @@ const Contact = () => {
 
 <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" class="form-control" id="exampleFormControlInput1"   name=""
+  <input type="email" class="form-control" id="exampleFormControlInput1"   name="email"
   value={data.email}
   onChange={InputEvent} placeholder="name@example.com"/>
 
@@ -92,7 +92,7 @@ const Contact = () => {
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Any Query For me</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-    name=""
+    name="msg"
     value={data.msg}
     onChange={InputEvent}
   ></textarea>
